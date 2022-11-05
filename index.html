@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CriptedMessages</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1>Strawy</h1>
+
+    <div>
+      <p>Hours</p>
+      <div class="InputBox" id="Hours">
+      <input type="number">
+      </div>
+    </div>
+
+    <div>
+      <p>Week</p>
+      <div class="InputBox" id="Week">
+      <input type="number">
+      </div>
+    </div>
+
+    <div class="">
+      <button type="button" onclick="autoTime()" name="button" class="button3">Auto Const !</button>
+    </div>
+
+    <div class="">
+      <a href="#instruction"><button type="button" name="button" class="button4">Instructions !</button></a> 
+    </div>
+
+    <div>
+       <p>Date</p>
+       <div class="InputBox" id="Date">
+       <input type="number">
+       </div>
+    </div>
+
+    <div>
+      <p>Month</p>
+      <div class="InputBox" id="Month">
+      <input type="number">
+      </div>
+    </div>
+
+    <div>
+      <p>Year</p>
+      <div class="InputBox" id="Year">
+      <input type="number">
+      </div>
+    </div>
+
+    <div>
+      <p>Constant</p>
+      <div class="InputBox" id="Constant">
+      <input type="number">
+      </div>
+    </div>
+
+    <div class="">
+      <button type="button" onclick="finalTransform()" name="button" class="button">Encrypt !</button>
+    </div>
+
+    <div class="">
+      <button type="button" onclick="finalTransform1()" name="button" class="button2">Decrypt !</button>
+    </div>
+
+    <div>
+      <p>Keyword</p>
+      <div class="InputBox" id="Keyword">
+      <textarea id="key-box"name="name" rows="1" cols="20"></textarea>
+      </div>
+    </div>
+
+    <div>
+      <p>Message</p>
+      <div class="InputBox" id="Message">
+      <textarea class="InputBox" name="name" rows="8" cols="50"></textarea>
+      </div>
+    </div>
+
+    <div>
+      <p>OutputBox</p>
+      <div class="InputBox" id="OutputBox">
+      <textarea class="InputBox" name="name" rows="8" cols="50"></textarea>
+      </div>
+    </div>
+
+    <div id="instruction">
+      <pre>
+This site allows you to create an encrypted message.<br>
+To do this you have to put values in the dedicated spaces,<br>
+marked with a word above: the hour rounded down, the day<br>
+of the week expressed by a number, the date or the day<br>
+of the month and the year.<br>
+if you need the variables at the exact moment you can<br>
+hit the button on the right that says "Auto const".<br>
+after having entered the variables in the two different <br>
+ways you can enter the keyword for the encryption of the <br>
+message, consisting only of letters. then write the message, <br>
+always in the appropriate box, and press the "Encrypt" or <br>
+"Decrypt" buttons with respect to what you need to do <br>
+with the message,after having encrypted it, in fact, using <br>
+the same time values, it can be decrypted. <br>
+Tip: the program does not recognize spaces, so for better <br>
+understanding we recommend the use of special signs such as "-"  </pre>
+    </div>
+
+<script src="Script.js" charset="utf-8"></script>
+  </body>
+</html>

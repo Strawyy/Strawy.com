@@ -1,0 +1,128 @@
+.InputBox{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 0px;
+  font-size: 75px;
+  color: #c7c7c7;
+  font-family: 'Handlee', cursive;
+}
+
+input {
+  background: #c7c7c7;
+}
+
+textarea {
+    background: #c7c7c7;
+}
+
+p{
+  display: flex;
+  justify-content: center;
+  color: #F5C212;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+#instruction {
+  text-align: center;
+  font-size: 15px;
+  color: #faeecf;
+}
+
+body {
+  background-color: #404040;
+}
+
+#key-box {
+  width: 300px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button {
+  position: absolute;
+  margin-left: 14%;
+  background-color: #faeecf;
+  cursor: pointer;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border: 2px solid #F5C212;
+   transition-duration: 0.4s;
+   border-radius: 12px;
+}
+
+.button2 {
+  position: absolute;
+  margin-left: 72.5%;
+  background-color: #faeecf;
+  cursor: pointer;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border: 2px solid #F5C212;
+   transition-duration: 0.4s;
+   border-radius: 12px;
+}
+
+.button3 {
+  position: absolute;
+  margin-left: 72.5%;
+  background-color: #faeecf;
+  cursor: pointer;
+  border: none;
+  color: black;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border: 2px solid #F5C212;
+   transition-duration: 0.4s;
+}
+
+.button4 {
+  position: absolute;
+  margin-left: 14%;
+  background-color: #faeecf;
+  cursor: pointer;
+  border: none;
+  color: black;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border: 2px solid #F5C212;
+   transition-duration: 0.4s;
+}
+
+
+.button:hover {
+  background-color: #F5C212;
+}
+
+.button2:hover {
+  background-color: #F5C212;
+}
+
+.button3:hover {
+  background-color: #F5C212;
+}
+
+.button4:hover {
+  background-color: #F5C212;
+}
